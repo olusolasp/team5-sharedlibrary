@@ -17,7 +17,7 @@ pipeline {
                         url: "${repoUrl}"
             }
         }
-        stage("demo-oldapp") {
+        stage("demo-newapp") {
             steps {
                 sh 'cat /etc/passwd'
                 echo "jenkins was an easy module"
